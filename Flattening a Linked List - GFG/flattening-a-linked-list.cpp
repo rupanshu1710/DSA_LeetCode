@@ -110,79 +110,34 @@ struct Node{
 
 /*  Function which returns the  root of 
     the flattened linked list. */
+Node* merge(Node* l1, Node* l2)
+{
+    Node* dummy = new Node(0);
+    Node* temp = dummy;
+    Node* res = dummy;
+    while(l1 && l2)
+    {
+        if(l1->data>l2->data)
+        {
+            res->bottom = l2;
+            l2 = l2->bottom;
+        }
+        else 
+        {
+            res->bottom = l1;
+            l1 = l1->bottom;
+        }
+        res = res->bottom;
+    }
+    if(l1)res->bottom = l1;
+    if(l2)res->bottom = l2;
+    return temp->bottom;
+}
+Node* flatten(Node* root)
+{
+   if(!root||!root->next)return root;
+   Node* temp = flatten(root->next);
+   root->next = temp;
+   return merge(root,temp);
+}
 
-/*Node* Mid(Node* head)
-    {
-         if(head == NULL or head->next == NULL){
-            return head;
-        }
-        Node* fast = head;
-        Node* slow = head;
-        while(fast->next && fast->next->next)
-        {
-            slow = slow->next;
-            fast = fast->next->next;
-        }
-        return slow;
-    }
-Node* merge(Node* a, Node* b) 
-    {
-        if(a == NULL) return b;
-        if(b == NULL) return a;
-        
-        Node* temp;
-        if(a->data <= b->data){
-            temp = a;
-            temp->next = merge(a->next, b);
-        }
-        else{
-            temp = b;
-            temp->next = merge(a, b->next);
-        }
-        
-        return temp;
-    }
-Node* listSort(Node* head) 
-    {
-        if(head == NULL || head ->next == NULL)return head;
-        Node* mid = Mid(head);
-        Node* a = head;
-        Node* b = mid->next;
-        mid->next = NULL;
-        Node* node1 = listSort(a);
-        Node* node2 = listSort(b);
-        Node* ans = merge(node1,node2);
-    return ans;
-    }*/
-Node *merge(Node *a,Node *b)
-{
-    Node dummy = Node(0),*curr = &dummy ;
-    while(a!=NULL && b!=NULL)
-    {
-        if(a->data<b->data)
-        {
-            curr->bottom = a;
-            a=a->bottom;
-        }
-        else
-        {
-            curr->bottom = b;
-            b=b->bottom;
-        }
-        curr=curr->bottom;
-    }
-   if(a!=NULL)
-   curr->bottom=a;
-   else
-   curr->bottom=b;
-    return dummy.bottom;
-}
-Node *flatten(Node *root)
-{
-   // Your code here
-   if(root==NULL || root->next==NULL)
-   return root;
-  root->next = flatten(root->next);
-  root=merge(root,root->next);
-   return root;
-}
