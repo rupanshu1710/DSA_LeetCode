@@ -11,17 +11,19 @@ using namespace std;
 class Solution
 {
     public:
-    long long countKdivPairs(int A[], int n, int K)
+    long long countKdivPairs(int a[], int n, int k)
     {
         long long ans=0;
-        unordered_map<int,int>m;
-        for(int i=0;i<n;i++)
-        { 
-            int rem1 = A[i]%K;
-            if(rem1!=0)
-            ans+=m[K-A[i]%K];
-            else ans+=m[0];
-            m[rem1]++;
+        unordered_map<int,int>mp;
+        for(int i=0; i<n; i++){
+            a[i] %= k;
+        }
+        for(int i=0; i<n; i++){
+            if(mp.find((k-a[i])%k)!=mp.end()){
+                ans += mp[(k-a[i])%k];
+                //if(a[i]==0)ans+=mp[0];
+            }
+            mp[a[i]]++;
         }
         return ans;
     }
