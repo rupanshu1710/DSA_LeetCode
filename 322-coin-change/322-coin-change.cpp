@@ -1,28 +1,22 @@
 class Solution {
 public:
+    int t[13][10001];
+    int getAns(vector<int>& coins, int amount, int index){
+        if(index==coins.size()-1){
+            if(amount%coins[index]==0)return amount/coins[index];
+            else return 1e9;
+        }
+        if(t[index][amount]!=-1)return t[index][amount];
+        if(coins[index]<=amount){
+            return t[index][amount] = min(1+ getAns(coins,amount-coins[index],index), getAns(coins,amount,index+1));
+        }
+        else{
+            return t[index][amount] = getAns(coins,amount,index+1);
+        }
+        return t[index][amount];
+    }
     int coinChange(vector<int>& coins, int amount) {
-        int n = coins.size();
-        int t[n+1][amount+1];
-        for(int i=0; i<n+1; i++){
-            for(int j=0; j<amount+1; j++){
-                if(!j)t[i][j] = 0;
-                if(!i)t[i][j] = INT_MAX-1;
-                if(i==1 && j!=0){
-                    if(j%coins[0]!=0)t[i][j] = INT_MAX-1;
-                    else t[i][j] = j/coins[0];
-                }
-            }
-        }
-        for(int i=2; i<n+1; i++){
-            for(int j=1; j<amount+1; j++){
-                if(coins[i-1]<=j){
-                    t[i][j] = min(1+t[i][j-coins[i-1]],t[i-1][j]);
-                }
-                else{
-                    t[i][j] = t[i-1][j];
-                }
-            }
-        }
-        return t[n][amount]==INT_MAX-1?-1:t[n][amount];
+        memset(t,-1,sizeof(t));
+        return getAns(coins,amount,0)==1e9?-1:getAns(coins,amount,0);
     }
 };
