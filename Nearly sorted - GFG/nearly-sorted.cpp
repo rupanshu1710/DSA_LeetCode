@@ -8,17 +8,22 @@ class Solution
 {
     public:
     //Function to return the sorted array.
-    vector <int> nearlySorted(int arr[], int num, int k){
+    vector <int> nearlySorted(int arr[], int n, int k){
        // Your code here
-       multiset<int> ms;
-       for(int i=0;i<num;i++){
-           ms.insert(arr[i]);
+       vector <int> ans;
+       priority_queue<int,vector<int>, greater<int>> minh;
+       for(int i=0; i<n; i++){
+           minh.push(arr[i]);
+           if(minh.size()>k){
+              ans.push_back(minh.top());
+              minh.pop();
+           }
        }
-       vector<int> res;
-       for(auto itr:ms){
-           res.push_back(itr);
+       while(minh.size()>0){
+           ans.push_back(minh.top());
+              minh.pop();
        }
-       return res;
+       return ans;
    }
 };
 // { Driver Code Starts.
