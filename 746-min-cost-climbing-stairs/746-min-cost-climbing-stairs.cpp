@@ -1,15 +1,13 @@
 class Solution {
 public:
-    int t[1002];
-    int solve(vector<int>& cost,int start){
-        if(start>cost.size()-1)return t[start] = 0;
-        if(t[start]!=-1)return t[start];
-        t[start+1] = solve(cost,start+1);
-        t[start+2] = solve(cost,start+2);
-        return t[start] = cost[start] + min(t[start+1],t[start+2]);
-    }
-    int minCostClimbingStairs(vector<int>& cost) {
-        for(int i=0; i<1002; i++)t[i]=-1;
-        return min(solve(cost,0),solve(cost,1));
+    int minCostClimbingStairs(vector<int> &cost){
+        int n = cost.size();
+        int t[n];
+        t[0] = cost[0];
+        t[1] = cost[1];
+        for(int i=2; i<n; i++){
+            t[i] = cost[i] + min(t[i-1], t[i-2]);
+        }
+	    return min(t[n-1],t[n-2]); 
     }
 };
