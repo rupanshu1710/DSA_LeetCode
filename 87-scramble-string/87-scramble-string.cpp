@@ -29,6 +29,5 @@ public:
             if(cnt[i]!=0) return false;
         }
         return solve(s1, s2);
-        return solve(s1,s2);
     }
 };
