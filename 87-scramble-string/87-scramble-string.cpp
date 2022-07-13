@@ -21,13 +21,13 @@ public:
     bool isScramble(string s1, string s2) {
         vector<int> cnt(26, 0);
         mp=unordered_map<string, bool>(false);
-        for(int i=0; i<s1.size(); i++){
+        /*for(int i=0; i<s1.size(); i++){
             cnt[s1[i]-'a']++;
             cnt[s2[i]-'a']--;
         }
         for(int i=0; i<26; i++){
             if(cnt[i]!=0) return false;
-        }
+        }*/
         return solve(s1, s2);
     }
 };
