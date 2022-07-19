@@ -9,8 +9,7 @@ public:
         int j=n;
         while(i<=j){
             int mid = i+(j-i)/2;
-            if(t[k-1][mid-1]==-1 && t[k][n-mid]==-1){
-                int temp1 = solve(k-1,mid-1);
+            int temp1 = solve(k-1,mid-1);
                 int temp2 = solve(k,n-mid);
                 int temp = 1 + max(temp1,temp2);
                 if(temp1<temp2){
@@ -18,37 +17,6 @@ public:
                 }
                 else j = mid-1;
                 ans = min(ans,temp);
-            }
-            else if(t[k-1][mid-1]==-1){
-                int temp1 = solve(k-1,mid-1);
-                int temp2 = t[k][n-mid];
-                int temp = 1 + max(temp1,temp2);
-                if(temp1<temp2){
-                    i = mid+1;
-                }
-                else j = mid-1;
-                ans = min(ans,temp);
-            }
-            else if(t[k][n-mid]==-1){
-                int temp1 = t[k-1][mid-1];
-                int temp2 = solve(k,n-mid);
-                int temp = 1 + max(temp1,temp2);
-                if(temp1<temp2){
-                    i = mid+1;
-                }
-                else j = mid-1;
-                ans = min(ans,temp);
-            }
-            else{
-                int temp1 = t[k-1][mid-1];
-                int temp2 = t[k][n-mid];
-                int temp = 1 + max(temp1,temp2);
-                if(temp1<temp2){
-                    i = mid+1;
-                }
-                else j = mid-1;
-                ans = min(ans,temp);
-            }
         }
         /*for(int i=1; i<n+1; i++){
             if(t[k-1][i-1]==-1 && t[k][n-i]==-1){
