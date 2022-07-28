@@ -1,7 +1,9 @@
 class Solution {
 public:
-    int t[38];
-    int getAns(int t[],int n){
+    int tribonacci(int n) {
+        if(n==0 || n==1)return n;
+        if(n==2)return 1;
+        int  t[n+1];
         t[0] = 0;
         t[1] = 1;
         t[2] = 1;
@@ -9,8 +11,5 @@ public:
             t[i] = t[i-1] + t[i-2] + t[i-3];
         }
         return t[n];
-    }
-    int tribonacci(int n) {
-        return getAns(t,n);
     }
 };
