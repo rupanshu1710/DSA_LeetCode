@@ -7,8 +7,12 @@ public:
         if(t[idx]!=-1)return t[idx];
         string s1 = s.substr(idx, 2);
         int ans1 = getAns(s,idx+1,n);
+        t[idx+1] = ans1;
         int ans2 = 0;
-        if(stoi(s1)>9 and stoi(s1)<=26)ans2 = getAns(s, idx+2, n);
+        if(stoi(s1)>9 and stoi(s1)<=26){
+            ans2 = getAns(s, idx+2, n);
+            t[idx+2] = ans2;
+        }
         return t[idx] = ans1+ans2;        
         
     }
