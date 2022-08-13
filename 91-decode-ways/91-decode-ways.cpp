@@ -1,7 +1,6 @@
 class Solution {
 public:
-    int t[101];
-    int getAns(string s, int idx, int n){
+    /*int getAns(string s, int idx, int n){
         if(idx==n) return 1;
         if(s[idx]=='0') return 0;
         if(t[idx]!=-1)return t[idx];
@@ -15,10 +14,20 @@ public:
         }
         return t[idx] = ans1+ans2;        
         
-    }
+    }*/
     int numDecodings(string s) {
         int n=s.size();
-        for(int i=0; i<101; i++)t[i]=-1;
-        return getAns(s,0,n);
+        if(s[0] == '0') return 0;
+        int t[n+1];
+        for(int i=0; i<n+1; i++)t[i]=0;
+        t[n] = 1;
+        for(int i=s.size()-1; i>=0; i--){
+            string s1 = s.substr(i, 2);
+            if(s[i]!='0')t[i] += t[i+1];
+            if(stoi(s1)>9 and stoi(s1)<=26){
+                t[i] += t[i+2];
+            }
+        }
+        return t[0];
     }
 };
