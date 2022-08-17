@@ -1,17 +1,17 @@
 class Solution {
 public:
     int t[20];
-    int solve(int n){
-        if(n<=1)return 1;
-        if(t[n]!=-1)return t[n];
-        int ans=0;
-        for(int i=1; i<=n; i++){
-            ans += solve(i-1)*solve(n-i);
-        }
-        return t[n] = ans;
-    }
     int numTrees(int n){
-        memset(t,-1,sizeof(t));
-        return solve(n);
+        memset(t,0,sizeof(t));
+        t[0] = 1;
+        t[1] = 1;
+        for(int i=2; i<n+1; i++){
+            int ans=0;
+            for(int j=1; j<=i; j++){
+                ans += t[j-1]*t[i-j];
+            }
+            t[i] = ans;
+        }
+        return t[n];
     }
 };
