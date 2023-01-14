@@ -40,23 +40,33 @@ public:
         return 0;
     }
     int characterReplacement(string s, int k) {
-        int l = 0;
-        int r = s.size();
-        // cout<<r;
-        int ans=0;
-        while(l<=r){
-            int mid = l + (r-l)/2;
-            cout<<mid<<" "<<isCheck(s,mid,k)<<endl;
-            string temp = s;
-            reverse(temp.begin(),temp.end());
-            if(isCheck(s,mid,k) || isCheck(temp,mid,k)){
-                ans = mid;
-                l = mid+1;
+        int i=0,j=0,ans=0;
+        vector<int>mp(26,0);
+        int count=0;
+        int cnt=0,mx;
+        while(j<s.size()){
+            int sum=0;
+            mp[s[j]-'A']++;
+            if(s[i]!=s[j])count++;
+            mx = *max_element(mp.begin(),mp.end());
+            for(int i=0; i<26; i++)sum += mp[i];
+            sum -= mx;
+            if(sum<=k){
+                ans = max(ans,j-i+1);
+                cout<<i<<" "<<j<<" "<<count<<endl;
+                j++;
             }
-            else r = mid-1;
+            else{
+                char c = s[i];
+                while(sum>k){
+                    mp[s[i]-'A']--;
+                    sum--;
+                    i++;
+                }
+                j++;
+            }
+            
         }
-        // cout<<" "<<isCheck(s,11,k)<<endl;
-        // cout<<s[4]<<" "<<s[14]<<endl;
         return ans;
     }
 };
