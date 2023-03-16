@@ -2,7 +2,7 @@ class Solution {
 public:
     bool search(int i, int j, vector<vector<char>>& board, string word, int k, int n, int m){
         if(k==word.size())return 1;
-        else if(i<0 || j<0 || i>=n || j>=m || board[i][j]!=word[k])return 0; 
+        else if(i<0 || j<0 || i>=n || j>=m || board[i][j]!=word[k] || board[i][j] == '#')return 0; 
         else{
             char ch = board[i][j];
             board[i][j] = '#';
