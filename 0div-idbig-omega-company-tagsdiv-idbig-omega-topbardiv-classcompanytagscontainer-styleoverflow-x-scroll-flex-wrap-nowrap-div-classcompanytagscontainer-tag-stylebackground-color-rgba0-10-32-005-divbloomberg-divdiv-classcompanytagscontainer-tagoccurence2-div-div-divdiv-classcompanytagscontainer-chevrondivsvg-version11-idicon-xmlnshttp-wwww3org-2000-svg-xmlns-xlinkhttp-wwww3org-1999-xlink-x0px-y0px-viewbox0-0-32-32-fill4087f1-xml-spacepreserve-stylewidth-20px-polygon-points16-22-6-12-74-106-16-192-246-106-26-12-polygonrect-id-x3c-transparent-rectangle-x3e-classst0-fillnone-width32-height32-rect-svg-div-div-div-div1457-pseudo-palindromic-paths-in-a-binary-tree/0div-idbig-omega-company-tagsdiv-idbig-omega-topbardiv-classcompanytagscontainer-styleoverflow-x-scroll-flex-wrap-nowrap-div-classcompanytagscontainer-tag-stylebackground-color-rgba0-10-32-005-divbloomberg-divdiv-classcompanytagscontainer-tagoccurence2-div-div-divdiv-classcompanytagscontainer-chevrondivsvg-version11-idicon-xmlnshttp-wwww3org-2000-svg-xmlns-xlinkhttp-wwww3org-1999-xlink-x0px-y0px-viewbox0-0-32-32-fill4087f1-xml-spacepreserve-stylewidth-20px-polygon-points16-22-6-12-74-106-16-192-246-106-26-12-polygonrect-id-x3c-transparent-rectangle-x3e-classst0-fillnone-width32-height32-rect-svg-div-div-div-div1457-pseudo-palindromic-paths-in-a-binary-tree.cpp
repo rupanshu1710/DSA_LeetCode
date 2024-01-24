@@ -21,7 +21,7 @@ public:
                 }
                 if(cnt>1)break;
             }
-            cout<<cnt<<" "<<endl;
+            // cout<<cnt<<" "<<endl;
             if(cnt>1)return 0;
             else return 1;
         }
