@@ -1,14 +1,9 @@
 class Solution {
 public:
-    int bitwiseComplement(int n) {
-        if(n==0)return 1;
-        int m = n;
-        int mask = 0;
-        while(m!=0)
-        {
-            mask = (mask<<1) | 1;
-            m = m>>1;
-        }
-        return mask^n;
+    int bitwiseComplement(int num) {
+        if(num==0)return 1;
+        long long ans= (int)(log(num)/log(2));
+        ans = pow(2,ans+1);
+        return ans-1-num;
     }
 };
