@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [3321-type-of-triangle](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3321-type-of-triangle) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3849-equal-sum-grid-partition-i](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3849-equal-sum-grid-partition-i) |
@@ -19,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2998-count-symmetric-integers](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/2998-count-symmetric-integers) |
+| [3321-type-of-triangle](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3321-type-of-triangle) |
 ## Enumeration
 |  |
 | ------- |
@@ -35,6 +37,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Sorting
 |  |
 | ------- |
+| [3321-type-of-triangle](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3321-type-of-triangle) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 ## Counting
 |  |
