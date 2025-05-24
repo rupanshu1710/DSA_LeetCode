@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [3194-find-words-containing-character](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3194-find-words-containing-character) |
 | [3321-type-of-triangle](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3321-type-of-triangle) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
@@ -31,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## String
 |  |
 | ------- |
+| [3194-find-words-containing-character](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3194-find-words-containing-character) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 ## Greedy
 |  |
