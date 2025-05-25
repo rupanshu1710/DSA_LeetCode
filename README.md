@@ -71,4 +71,16 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3738-make-array-non-decreasing](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3738-make-array-non-decreasing) |
+## Tree
+|  |
+| ------- |
+| [1492-time-needed-to-inform-all-employees](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/1492-time-needed-to-inform-all-employees) |
+## Depth-First Search
+|  |
+| ------- |
+| [1492-time-needed-to-inform-all-employees](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/1492-time-needed-to-inform-all-employees) |
+## Breadth-First Search
+|  |
+| ------- |
+| [1492-time-needed-to-inform-all-employees](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/1492-time-needed-to-inform-all-employees) |
 <!---LeetCode Topics End-->
