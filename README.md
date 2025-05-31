@@ -18,6 +18,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [3595-rearrange-k-substrings-to-form-target-string](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3595-rearrange-k-substrings-to-form-target-string) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
@@ -37,6 +38,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [3194-find-words-containing-character](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3194-find-words-containing-character) |
+| [3595-rearrange-k-substrings-to-form-target-string](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3595-rearrange-k-substrings-to-form-target-string) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 ## Greedy
 |  |
@@ -48,6 +50,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3321-type-of-triangle](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3321-type-of-triangle) |
+| [3595-rearrange-k-substrings-to-form-target-string](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3595-rearrange-k-substrings-to-form-target-string) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 ## Counting
