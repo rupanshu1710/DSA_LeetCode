@@ -32,6 +32,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2998-count-symmetric-integers](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/2998-count-symmetric-integers) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3849-equal-sum-grid-partition-i](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3849-equal-sum-grid-partition-i) |
 ## String
 |  |
@@ -39,6 +40,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [3194-find-words-containing-character](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3194-find-words-containing-character) |
 | [3595-rearrange-k-substrings-to-form-target-string](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3595-rearrange-k-substrings-to-form-target-string) |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 ## Greedy
 |  |
@@ -86,4 +88,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1492-time-needed-to-inform-all-employees](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/1492-time-needed-to-inform-all-employees) |
+## Two Pointers
+|  |
+| ------- |
+| [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
 <!---LeetCode Topics End-->
