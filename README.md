@@ -21,6 +21,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3595-rearrange-k-substrings-to-form-target-string](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3595-rearrange-k-substrings-to-form-target-string) |
 | [3621-minimum-operations-to-make-array-values-equal-to-k](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3621-minimum-operations-to-make-array-values-equal-to-k) |
 | [3656-minimum-number-of-operations-to-make-elements-in-array-distinct](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3656-minimum-number-of-operations-to-make-elements-in-array-distinct) |
+| [3815-sum-of-largest-prime-substrings](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3815-sum-of-largest-prime-substrings) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 ## Math
@@ -28,6 +29,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [2998-count-symmetric-integers](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/2998-count-symmetric-integers) |
 | [3321-type-of-triangle](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3321-type-of-triangle) |
+| [3815-sum-of-largest-prime-substrings](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3815-sum-of-largest-prime-substrings) |
 ## Enumeration
 |  |
 | ------- |
@@ -41,6 +43,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [3194-find-words-containing-character](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3194-find-words-containing-character) |
 | [3595-rearrange-k-substrings-to-form-target-string](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3595-rearrange-k-substrings-to-form-target-string) |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
+| [3815-sum-of-largest-prime-substrings](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3815-sum-of-largest-prime-substrings) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 ## Greedy
 |  |
@@ -53,6 +56,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [3321-type-of-triangle](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3321-type-of-triangle) |
 | [3595-rearrange-k-substrings-to-form-target-string](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3595-rearrange-k-substrings-to-form-target-string) |
+| [3815-sum-of-largest-prime-substrings](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3815-sum-of-largest-prime-substrings) |
 | [3847-minimum-swaps-to-sort-by-digit-sum](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3847-minimum-swaps-to-sort-by-digit-sum) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
 ## Counting
@@ -92,4 +96,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [3683-find-the-lexicographically-largest-string-from-the-box-i](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3683-find-the-lexicographically-largest-string-from-the-box-i) |
+## Number Theory
+|  |
+| ------- |
+| [3815-sum-of-largest-prime-substrings](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3815-sum-of-largest-prime-substrings) |
 <!---LeetCode Topics End-->
