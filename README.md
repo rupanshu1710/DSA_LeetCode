@@ -27,6 +27,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Math
 |  |
 | ------- |
+| [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [2998-count-symmetric-integers](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/2998-count-symmetric-integers) |
 | [3321-type-of-triangle](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3321-type-of-triangle) |
 | [3815-sum-of-largest-prime-substrings](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3815-sum-of-largest-prime-substrings) |
@@ -48,6 +49,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Greedy
 |  |
 | ------- |
+| [1529-max-difference-you-can-get-from-changing-an-integer](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/1529-max-difference-you-can-get-from-changing-an-integer) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [3738-make-array-non-decreasing](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3738-make-array-non-decreasing) |
 | [3871-minimum-deletions-for-at-most-k-distinct-characters](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3871-minimum-deletions-for-at-most-k-distinct-characters) |
