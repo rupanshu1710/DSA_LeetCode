@@ -6,6 +6,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Array
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/0036-valid-sudoku) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -19,6 +20,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Hash Table
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/0036-valid-sudoku) |
 | [1995-finding-pairs-with-a-certain-sum](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/1995-finding-pairs-with-a-certain-sum) |
 | [2204-find-subsequence-of-length-k-with-the-largest-sum](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/2204-find-subsequence-of-length-k-with-the-largest-sum) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -74,6 +76,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/0036-valid-sudoku) |
 | [3849-equal-sum-grid-partition-i](https://github.com/rupanshu1710/DSA_LeetCode/tree/master/3849-equal-sum-grid-partition-i) |
 ## Prefix Sum
 |  |
